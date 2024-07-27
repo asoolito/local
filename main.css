@@ -1,0 +1,50 @@
+.wrapper {
+    background-color: yellow;
+    width: 400px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 40px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+    width: calc(100% - 20px); /* Adjust width based on the padding */
+}
+
+button {
+    background-color: green;
+    border: transparent;
+    border-radius: 10px;
+    padding: 17px 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
